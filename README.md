@@ -27,17 +27,16 @@ https://datatables.net/manual/styling/theme-creator
 * searchable: false or true
  
     $('#example').DataTable({
-         columnDefs: [
-        {
-target: 2,
-visible: false,
-searchable: false,
-},
-{
-target: 3,
-visible: false,
-},
-],
+        columnDefs: [{
+            target: 2,
+            visible: false,
+            searchable: false,
+        },
+            {
+            target: 3,
+            visible: false,
+        },
+    ],
     });
 
 ### colspan, rowspan 
