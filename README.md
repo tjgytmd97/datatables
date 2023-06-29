@@ -26,19 +26,14 @@ https://datatables.net/manual/styling/theme-creator
 * visible : false or true
 * searchable: false or true
  
-    $('#example').DataTable({
-  columnDefs: [
-    {
-      target: 2,
-      visible: false,
-      searchable: false,
-    },
-    {
-      target: 3,
-      visible: false,
-    },
-  ],
+   ```javascript
+$('#example').DataTable({
+columnDefs: [
+{ target: 2, visible: false, searchable: false },
+{ target: 3, visible: false }
+]
 });
+```
 
 ### colspan, rowspan 
 * &lt;th colspan ="2"&gt;&lt;/th&gt;
