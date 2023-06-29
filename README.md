@@ -55,12 +55,14 @@ columnDefs: [
         pagingType: 'full_numbers',
     });
 ### 쉼표, 소수점
+```javascript
     $('#example').DataTable({
         language: {
             decimal: ',',
             thousands: '.',
         },
     });
+```
 
 ## 스타일
 테이블 클래스 이름
