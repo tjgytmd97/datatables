@@ -7,20 +7,23 @@ https://datatables.net/examples/index
 ## 사용법
 ### 기능 활성화/비활성화 
 false or true
+```javascript
     $('#example').DataTable({
     paging: false,
     ordering: false,
     info: false,
     });
+```
 ### 테마 변경 (css)
 https://datatables.net/manual/styling/theme-creator
 
 ### 정렬 
 &#91;&#91;컬럼 번호, 'desc or asc'&#93;&#93;
+```javascript
     $('#example').DataTable({
         order: &#91;&#91;3, 'desc'&#93;&#93;,
     });
-
+```
 ### 컬럼 숨기기
 * target : 컬럼 번호
 * visible : false or true
