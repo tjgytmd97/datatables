@@ -25,6 +25,7 @@ https://datatables.net/manual/styling/theme-creator
 * target : 컬럼 번호
 * visible : false or true
 * searchable: false or true
+ 
     $('#example').DataTable({
         columnDefs: [
     {
